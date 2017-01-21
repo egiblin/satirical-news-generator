@@ -1,0 +1,7 @@
+<h1 id="Headline">The New York Times</h1>
+
+<% @articles.each do |article| %>
+  <%= article.title %>
+  <img src="<%= article.image_url %>"/>
+  <p1><%= article.body %></p1>
+<% end %>

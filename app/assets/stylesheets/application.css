@@ -1,0 +1,55 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require foundation_and_overrides
+
+ */
+
+ #article_image {
+   height: 350px;
+ }
+
+#header {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+#article {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+div {
+  font-family: "Imperial", serif;
+}
+#headline{
+  font-family: "Chetlenham", serif;
+  font-weight: bold;
+  text-align: center;
+}
+#block_body{
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+img.center{
+  display: block;
+  margin: 0 auto;
+}
+#make_news{
+  margin-left: 15px;
+}
+#add_article{
+  margin-bottom: 15px;
+}
